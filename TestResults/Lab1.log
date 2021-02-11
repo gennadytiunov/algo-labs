@@ -1,6 +1,4 @@
-
-
-e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe --algo=StringLength --tests-folder="_TestSets\0.String"
+e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner>Otus.AlgoLabs.exe --algo=StringLength --tests-folder="_TestSets\0.String"
 Running algorithm for folder '_TestSets\0.String'.
 Running algorithm for file '_TestSets\0.String\test.0.in' and '_TestSets\0.String\test.0.out': Success (Input: '12345678'.Actual Result: '8'. Expected Result: '8'). Time: 0ms.
 Running algorithm for file '_TestSets\0.String\test.1.in' and '_TestSets\0.String\test.1.out': Success (Input: '1234567890123456789012345678901234567890123456789012345678901234'.Actual Result: '64'. Expected Result: '64'). Time: 0ms.
@@ -9,7 +7,7 @@ Running algorithm for file '_TestSets\0.String\test.3.in' and '_TestSets\0.Strin
 Running algorithm for file '_TestSets\0.String\test.4.in' and '_TestSets\0.String\test.4.out': Failure (Input: 'abcdefghijklmnoprstuvwxyz'.Actual Result: '25'. Expected Result: '26'). Time: 0ms.
 Cumulative Result: Failure.
 
-e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe --algo=SequentialLuckyTicket --tests-folder="_TestSets\1.Tickets"
+e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner>Otus.AlgoLabs.exe --algo=SequentialLuckyTicket --tests-folder="_TestSets\1.Tickets"
 Running algorithm for folder '_TestSets\1.Tickets'.
 Running algorithm for file '_TestSets\1.Tickets\test.0.in' and '_TestSets\1.Tickets\test.0.out': Success (Input: '1'. Actual Result: '10'. Expected Result: '10'). Time: 1ms.
 Running algorithm for file '_TestSets\1.Tickets\test.1.in' and '_TestSets\1.Tickets\test.1.out': Success (Input: '2'. Actual Result: '670'. Expected Result: '670'). Time: 2ms.
@@ -17,7 +15,7 @@ Running algorithm for file '_TestSets\1.Tickets\test.2.in' and '_TestSets\1.Tick
 Running algorithm for file '_TestSets\1.Tickets\test.3.in' and '_TestSets\1.Tickets\test.3.out': Success (Input: '4'. Actual Result: '4816030'. Expected Result: '4816030'). Time: 54403ms.
 Running algorithm for file '_TestSets\1.Tickets\test.4.in' and '_TestSets\1.Tickets\test.4.out': ^C
 
-e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe  --algo=CombinatorialLuckyTicket --tests-folder="_TestSets\1.Tickets"
+e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner>Otus.AlgoLabs.exe  --algo=CombinatorialLuckyTicket --tests-folder="_TestSets\1.Tickets"
 Running algorithm for folder '_TestSets\1.Tickets'.
 Running algorithm for file '_TestSets\1.Tickets\test.0.in' and '_TestSets\1.Tickets\test.0.out': Success (Input: '1'. Actual Result: '10'. Expected Result: '10'). Time: 1ms.
 Running algorithm for file '_TestSets\1.Tickets\test.1.in' and '_TestSets\1.Tickets\test.1.out': Success (Input: '2'. Actual Result: '670'. Expected Result: '670'). Time: 0ms.
