@@ -22,7 +22,7 @@ namespace Otus.AlgoLabs
             watch.Stop();
             var result = expectedResult == actualResult;
 
-            Console.WriteLine($"{(result ? "Success" : "Failure")} (Input: '{inFileText}'.Actual Result: '{actualResult}'. Expected Result: '{expectedResult}'). Time: {watch.ElapsedMilliseconds}ms.");
+            Console.WriteLine($"{(result ? "Success" : "Failure")} (Input: '{inFileText}'. Actual Result: '{actualResult}'. Expected Result: '{expectedResult}'). Time: {watch.ElapsedMilliseconds}ms.");
 
             return result;
         }
