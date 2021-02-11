@@ -1,0 +1,32 @@
+
+
+e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe --algo=StringLength --tests-folder="_TestSets\0.String"
+Running algorithm for folder '_TestSets\0.String'.
+Running algorithm for file '_TestSets\0.String\test.0.in' and '_TestSets\0.String\test.0.out': Success (Input: '12345678'.Actual Result: '8'. Expected Result: '8'). Time: 0ms.
+Running algorithm for file '_TestSets\0.String\test.1.in' and '_TestSets\0.String\test.1.out': Success (Input: '1234567890123456789012345678901234567890123456789012345678901234'.Actual Result: '64'. Expected Result: '64'). Time: 0ms.
+Running algorithm for file '_TestSets\0.String\test.2.in' and '_TestSets\0.String\test.2.out': Success (Input: ''.Actual Result: '0'. Expected Result: '0'). Time: 0ms.
+Running algorithm for file '_TestSets\0.String\test.3.in' and '_TestSets\0.String\test.3.out': Success (Input: '$'.Actual Result: '1'. Expected Result: '1'). Time: 0ms.
+Running algorithm for file '_TestSets\0.String\test.4.in' and '_TestSets\0.String\test.4.out': Failure (Input: 'abcdefghijklmnoprstuvwxyz'.Actual Result: '25'. Expected Result: '26'). Time: 0ms.
+Cumulative Result: Failure.
+
+e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe --algo=SequentialLuckyTicket --tests-folder="_TestSets\1.Tickets"
+Running algorithm for folder '_TestSets\1.Tickets'.
+Running algorithm for file '_TestSets\1.Tickets\test.0.in' and '_TestSets\1.Tickets\test.0.out': Success (Input: '1'. Actual Result: '10'. Expected Result: '10'). Time: 1ms.
+Running algorithm for file '_TestSets\1.Tickets\test.1.in' and '_TestSets\1.Tickets\test.1.out': Success (Input: '2'. Actual Result: '670'. Expected Result: '670'). Time: 2ms.
+Running algorithm for file '_TestSets\1.Tickets\test.2.in' and '_TestSets\1.Tickets\test.2.out': Success (Input: '3'. Actual Result: '55252'. Expected Result: '55252'). Time: 423ms.
+Running algorithm for file '_TestSets\1.Tickets\test.3.in' and '_TestSets\1.Tickets\test.3.out': Success (Input: '4'. Actual Result: '4816030'. Expected Result: '4816030'). Time: 54403ms.
+Running algorithm for file '_TestSets\1.Tickets\test.4.in' and '_TestSets\1.Tickets\test.4.out': ^C
+
+e:\Sources\Otus\VsOnlineLabs\AlgoLabs\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe  --algo=CombinatorialLuckyTicket --tests-folder="_TestSets\1.Tickets"
+Running algorithm for folder '_TestSets\1.Tickets'.
+Running algorithm for file '_TestSets\1.Tickets\test.0.in' and '_TestSets\1.Tickets\test.0.out': Success (Input: '1'. Actual Result: '10'. Expected Result: '10'). Time: 1ms.
+Running algorithm for file '_TestSets\1.Tickets\test.1.in' and '_TestSets\1.Tickets\test.1.out': Success (Input: '2'. Actual Result: '670'. Expected Result: '670'). Time: 0ms.
+Running algorithm for file '_TestSets\1.Tickets\test.2.in' and '_TestSets\1.Tickets\test.2.out': Success (Input: '3'. Actual Result: '55252'. Expected Result: '55252'). Time: 0ms.
+Running algorithm for file '_TestSets\1.Tickets\test.3.in' and '_TestSets\1.Tickets\test.3.out': Success (Input: '4'. Actual Result: '4816030'. Expected Result: '4816030'). Time: 0ms.
+Running algorithm for file '_TestSets\1.Tickets\test.4.in' and '_TestSets\1.Tickets\test.4.out': Success (Input: '5'. Actual Result: '432457640'. Expected Result: '432457640'). Time: 4ms.
+Running algorithm for file '_TestSets\1.Tickets\test.5.in' and '_TestSets\1.Tickets\test.5.out': Success (Input: '6'. Actual Result: '39581170420'. Expected Result: '39581170420'). Time: 48ms.
+Running algorithm for file '_TestSets\1.Tickets\test.6.in' and '_TestSets\1.Tickets\test.6.out': Success (Input: '7'. Actual Result: '3671331273480'. Expected Result: '3671331273480'). Time: 558ms.
+Running algorithm for file '_TestSets\1.Tickets\test.7.in' and '_TestSets\1.Tickets\test.7.out': Success (Input: '8'. Actual Result: '343900019857310'. Expected Result: '343900019857310'). Time: 6492ms.
+Running algorithm for file '_TestSets\1.Tickets\test.8.in' and '_TestSets\1.Tickets\test.8.out': Success (Input: '9'. Actual Result: '32458256583753952'. Expected Result: '32458256583753952'). Time: 69055ms.
+Running algorithm for file '_TestSets\1.Tickets\test.9.in' and '_TestSets\1.Tickets\test.9.out': Success (Input: '10'. Actual Result: '3081918923741896840'. Expected Result: '3081918923741896840'). Time: 761519ms.
+Cumulative Result: Success.

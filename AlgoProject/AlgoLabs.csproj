@@ -1,0 +1,154 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Otus.AlgoLabs</AssemblyName>
+    <RootNamespace>Otus.AlgoLabs</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="0.String\**" />
+    <EmbeddedResource Remove="0.String\**" />
+    <None Remove="0.String\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="_TestSets\0.String\problem.txt" />
+    <None Remove="_TestSets\0.String\test.0.in" />
+    <None Remove="_TestSets\0.String\test.0.out" />
+    <None Remove="_TestSets\0.String\test.1.in" />
+    <None Remove="_TestSets\0.String\test.1.out" />
+    <None Remove="_TestSets\0.String\test.2.in" />
+    <None Remove="_TestSets\0.String\test.2.out" />
+    <None Remove="_TestSets\0.String\test.3.in" />
+    <None Remove="_TestSets\0.String\test.3.out" />
+    <None Remove="_TestSets\0.String\test.4.in" />
+    <None Remove="_TestSets\0.String\test.4.out" />
+    <None Remove="_TestSets\1.Tickets\problem.txt" />
+    <None Remove="_TestSets\1.Tickets\test.0.in" />
+    <None Remove="_TestSets\1.Tickets\test.0.out" />
+    <None Remove="_TestSets\1.Tickets\test.1.in" />
+    <None Remove="_TestSets\1.Tickets\test.1.out" />
+    <None Remove="_TestSets\1.Tickets\test.2.in" />
+    <None Remove="_TestSets\1.Tickets\test.2.out" />
+    <None Remove="_TestSets\1.Tickets\test.3.in" />
+    <None Remove="_TestSets\1.Tickets\test.3.out" />
+    <None Remove="_TestSets\1.Tickets\test.4.in" />
+    <None Remove="_TestSets\1.Tickets\test.4.out" />
+    <None Remove="_TestSets\1.Tickets\test.5.in" />
+    <None Remove="_TestSets\1.Tickets\test.5.out" />
+    <None Remove="_TestSets\1.Tickets\test.6.in" />
+    <None Remove="_TestSets\1.Tickets\test.6.out" />
+    <None Remove="_TestSets\1.Tickets\test.7.in" />
+    <None Remove="_TestSets\1.Tickets\test.7.out" />
+    <None Remove="_TestSets\1.Tickets\test.8.in" />
+    <None Remove="_TestSets\1.Tickets\test.8.out" />
+    <None Remove="_TestSets\1.Tickets\test.9.in" />
+    <None Remove="_TestSets\1.Tickets\test.9.out" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="_TestSets\0.String\problem.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.0.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.0.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.1.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.1.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.2.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.2.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.3.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.3.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.4.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\0.String\test.4.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\problem.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.0.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.0.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.1.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.1.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.2.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.2.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.3.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.3.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.4.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.4.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.5.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.5.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.6.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.6.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.7.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.7.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.8.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.8.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.9.in">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\1.Tickets\test.9.out">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+  </ItemGroup>
+
+</Project>
