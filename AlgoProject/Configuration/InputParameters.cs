@@ -6,8 +6,10 @@ namespace Otus.AlgoLabs.Configuration
     {
 		StringLength,
 		SequentialLuckyTicket,
-        CombinatorialLuckyTicket
-    }
+        CombinatorialLuckyTicket,
+        InsertionSorting,
+        SelectionSorting,
+	}
 
 	public class InputParameters
 	{
@@ -16,7 +18,9 @@ namespace Otus.AlgoLabs.Configuration
             HelpText = "\r\nAlgorithm:" +
                        "\r\n - StringLength - string length calculation" +
                        "\r\n - SequentialLuckyTicket - inefficient sequential lucky ticket count calculation" +
-                       "\r\n - CombinatorialLuckyTicket - efficient combinatorial lucky ticket count calculation")]
+                       "\r\n - CombinatorialLuckyTicket - efficient combinatorial lucky ticket count calculation" +
+                       "\r\n - InsertionSorting" +
+					   "\r\n - SelectionSorting")]
 		public Algorithm Algorithm { get; set; }
 
 		[Option(

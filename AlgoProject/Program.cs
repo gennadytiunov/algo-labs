@@ -2,6 +2,7 @@
 using System.IO;
 using CommandLine;
 using Otus.AlgoLabs.Algorithms.Lab1;
+using Otus.AlgoLabs.Algorithms.Lab5;
 using Otus.AlgoLabs.Configuration;
 
 namespace Otus.AlgoLabs
@@ -20,20 +21,26 @@ namespace Otus.AlgoLabs
                             Environment.Exit(1);
                         }
                         
-                        var tester = new AlgoTester();
-
                         switch (inputParameters.Algorithm)
                         {
                             case Algorithm.StringLength:
-                                tester.PerformMultipleChecks(inputParameters.TestsFolder, StringLengthCalculator.Calculate);
+                                new AlgoTester().PerformMultipleChecks(inputParameters.TestsFolder, StringLengthCalculator.Calculate);
                                 break;
 
                             case Algorithm.SequentialLuckyTicket:
-                                tester.PerformMultipleChecks(inputParameters.TestsFolder, n => new SequentialLuckyTicketCalculator(2 * n).CalculateTicketCount());
+                                new AlgoTester().PerformMultipleChecks(inputParameters.TestsFolder, n => new SequentialLuckyTicketCalculator(2 * n).CalculateTicketCount());
                                 break;
 
                             case Algorithm.CombinatorialLuckyTicket:
-                                tester.PerformMultipleChecks(inputParameters.TestsFolder, n => new CombinatorialLuckyTicketCalculator(2 * n).CalculateTicketCount());
+                                new AlgoTester().PerformMultipleChecks(inputParameters.TestsFolder, n => new CombinatorialLuckyTicketCalculator(2 * n).CalculateTicketCount());
+                                break;
+
+                            case Algorithm.InsertionSorting:
+                                new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new InsertionSorter(array).Sort());
+                                break;
+
+                            case Algorithm.SelectionSorting:
+                                new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new SelectionSorter(array).Sort());
                                 break;
                         }
 

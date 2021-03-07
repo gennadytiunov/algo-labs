@@ -46,109 +46,384 @@
     <None Remove="_TestSets\1.Tickets\test.8.out" />
     <None Remove="_TestSets\1.Tickets\test.9.in" />
     <None Remove="_TestSets\1.Tickets\test.9.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.0.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.0.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.1.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.1.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.2.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.2.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.3.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.3.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.4.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.4.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.5.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.5.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.6.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.6.out" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.7.in" />
+    <None Remove="_TestSets\5.Sorting.Digits\test.7.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.0.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.0.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.1.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.1.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.2.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.2.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.3.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.3.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.4.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.4.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.5.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.5.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.6.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.6.out" />
+    <None Remove="_TestSets\5.Sorting.Random\test.7.in" />
+    <None Remove="_TestSets\5.Sorting.Random\test.7.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.0.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.0.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.1.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.1.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.2.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.2.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.3.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.3.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.4.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.4.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.5.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.5.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.6.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.6.out" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.7.in" />
+    <None Remove="_TestSets\5.Sorting.Reverted\test.7.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.0.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.0.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.1.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.1.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.2.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.2.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.3.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.3.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.4.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.4.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.5.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.5.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.6.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.6.out" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.7.in" />
+    <None Remove="_TestSets\5.Sorting.Sorted\test.7.out" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="_TestSets\0.String\problem.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.0.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.0.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.1.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.1.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.2.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.2.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.3.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.3.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.4.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\0.String\test.4.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\problem.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.0.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.0.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.1.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.1.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.2.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.2.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.3.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.3.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.4.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.4.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.5.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.5.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.6.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.6.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.7.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.7.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.8.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.8.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.9.in">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="_TestSets\1.Tickets\test.9.out">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.0.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.0.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.1.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.2.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.2.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.3.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.3.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.4.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.4.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.5.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.5.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.6.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.6.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.7.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Digits\test.7.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.0.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.0.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.1.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.2.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.2.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.3.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.3.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.4.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.4.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.5.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.5.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.6.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.6.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.7.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Random\test.7.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.0.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.0.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.1.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.2.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.2.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.3.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.3.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.4.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.4.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.5.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.5.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.6.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.6.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.7.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Reverted\test.7.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.0.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.0.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.1.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.1.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.2.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.2.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.3.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.3.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.4.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.4.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.5.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.5.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.6.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.6.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.7.in">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="_TestSets\5.Sorting.Sorted\test.7.out">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="_TestSets\5.Sorting.Digits\test.0.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.0.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.1.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.1.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.2.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.2.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.3.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.3.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.4.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.4.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.5.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.5.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.6.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.6.out" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.7.in" />
+    <Resource Include="_TestSets\5.Sorting.Digits\test.7.out" />
   </ItemGroup>
 
 </Project>
