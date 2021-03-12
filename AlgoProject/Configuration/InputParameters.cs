@@ -9,6 +9,9 @@ namespace Otus.AlgoLabs.Configuration
         CombinatorialLuckyTicket,
         InsertionSorting,
         SelectionSorting,
+        ShellSortingClassic,
+        ShellSortingKnuth,
+        ShellSortingCiura,
 	}
 
 	public class InputParameters
@@ -20,7 +23,11 @@ namespace Otus.AlgoLabs.Configuration
                        "\r\n - SequentialLuckyTicket - inefficient sequential lucky ticket count calculation" +
                        "\r\n - CombinatorialLuckyTicket - efficient combinatorial lucky ticket count calculation" +
                        "\r\n - InsertionSorting" +
-					   "\r\n - SelectionSorting")]
+					   "\r\n - SelectionSorting" +
+                       "\r\n - ShellSortingClassic - using gap sequence by Donald Shell: N/2, N/4, N/8, ...,  1" +
+                       "\r\n - ShellSortingKnuth - using gap sequence by Donald Knuth: (3^k-1)/2 < N/3 (1, 4, 13, 40, 121, ...)" +
+                       "\r\n - ShellSortingCiura - using gap sequence by Marcin Ciura (1, 4, 10, 23, 57, 132, 301, 701)"
+                       )]
 		public Algorithm Algorithm { get; set; }
 
 		[Option(

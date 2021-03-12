@@ -42,6 +42,12 @@ namespace Otus.AlgoLabs
                             case Algorithm.SelectionSorting:
                                 new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new SelectionSorter(array).Sort());
                                 break;
+
+                            case Algorithm.ShellSortingClassic:
+                            case Algorithm.ShellSortingKnuth:
+                            case Algorithm.ShellSortingCiura:
+                                new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new ShellSorter(array, new ShellGapGenerator(inputParameters.Algorithm, array.Length).Generate()).Sort());
+                                break;
                         }
 
                         Console.WriteLine("Please, press any key.");
