@@ -82,7 +82,7 @@ namespace Otus.AlgoLabs.Algorithms.Lab5
 
         private long[] GenerateCiuraGaps()
         {
-            var gaps = new long []  { 701, 301, 132, 57, 23, 10, 4, 1 };
+            var gaps = new long []  { 1750, 701, 301, 132, 57, 23, 10, 4, 1 };
             return gaps.Where(gap => gap < _arrayLength).ToArray();
         }
     }

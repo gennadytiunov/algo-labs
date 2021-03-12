@@ -1,0 +1,43 @@
+e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner>Otus.AlgoLabs.exe --algo=ShellSortingClassic --tests-folder="_TestSets\5.Sorting.Digits"
+Performing algorithm for folder '_TestSets\5.Sorting.Digits'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.0.in' and '_TestSets\5.Sorting.Digits\test.0.out'.
+Starting to sort 1 element(s). Sorted in 0ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.0.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.1.in' and '_TestSets\5.Sorting.Digits\test.1.out'.
+Starting to sort 10 element(s). Sorted in 0ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.1.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.2.in' and '_TestSets\5.Sorting.Digits\test.2.out'.
+Starting to sort 100 element(s). Sorted in 0ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.2.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.3.in' and '_TestSets\5.Sorting.Digits\test.3.out'.
+Starting to sort 1000 element(s). Sorted in 0ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.3.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.4.in' and '_TestSets\5.Sorting.Digits\test.4.out'.
+Starting to sort 10000 element(s). Sorted in 1ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.4.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.5.in' and '_TestSets\5.Sorting.Digits\test.5.out'.
+Starting to sort 100000 element(s). Sorted in 13ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.5.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.6.in' and '_TestSets\5.Sorting.Digits\test.6.out'.
+Starting to sort 1000000 element(s). Sorted in 142ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.6.res'.
+
+Performing algorithm for files '_TestSets\5.Sorting.Digits\test.7.in' and '_TestSets\5.Sorting.Digits\test.7.out'.
+Starting to sort 10000000 element(s). Sorted in 1599ms.
+Validating results: Success.
+Saving result to file 'e:\Sources\Otus\GitHubAlgoLabs\AlgoRunner\_TestSets\5.Sorting.Digits\test.7.res'.
+Cumulative Result: Success.

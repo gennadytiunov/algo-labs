@@ -23,14 +23,11 @@
                 var x = _array[i];
 
                 var j = i;
-
                 while (j > 0 && _array[j - 1] > x)
                 {
                     _array[j] = _array[j - 1];
-
                     j = j - 1;
                 }
-
                 _array[j] = x;
             }
 
