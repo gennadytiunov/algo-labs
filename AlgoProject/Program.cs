@@ -48,6 +48,10 @@ namespace Otus.AlgoLabs
                             case Algorithm.ShellSortingCiura:
                                 new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new ShellSorter(array, new ShellGapGenerator(inputParameters.Algorithm, array.Length).Generate()).Sort());
                                 break;
+
+                            case Algorithm.HeapSorting:
+                                new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new HeapSorter(array).Sort());
+                                break;
                         }
 
                         Console.WriteLine("Please, press any key.");
