@@ -3,6 +3,7 @@ using System.IO;
 using CommandLine;
 using Otus.AlgoLabs.Algorithms.Lab1;
 using Otus.AlgoLabs.Algorithms.Lab5;
+using Otus.AlgoLabs.Algorithms.Lab8;
 using Otus.AlgoLabs.Configuration;
 
 namespace Otus.AlgoLabs
@@ -15,12 +16,6 @@ namespace Otus.AlgoLabs
                 .WithParsed(
                     inputParameters =>
                     {
-                        if (!Directory.Exists(inputParameters.TestsFolder))
-                        {
-                            Console.WriteLine($"Folder '{inputParameters.TestsFolder}' not found.");
-                            Environment.Exit(1);
-                        }
-                        
                         switch (inputParameters.Algorithm)
                         {
                             case Algorithm.StringLength:
@@ -52,6 +47,22 @@ namespace Otus.AlgoLabs
                             case Algorithm.HeapSorting:
                                 new SortingTester().PerformMultipleChecks(inputParameters.TestsFolder, array => new HeapSorter(array).Sort());
                                 break;
+
+                            case Algorithm.HashTableChains:
+								new ActionRunner().Run(() =>
+								{
+                                    var random = new Random();
+                                    for (var n = 10; n <= Math.Pow(10, 7); n *= 10)
+                                    {
+	                                    var table = new HashTable<string, string>();
+                                        HashTableTestHelper.AddElements(table, n, random);
+	                                    HashTableTestHelper.SearchElements(table, n, random);
+	                                    HashTableTestHelper.DeleteElements(table, n, random);
+
+	                                    Console.WriteLine();
+                                    }
+                                });
+	                            break;
                         }
 
                         Console.WriteLine("Please, press any key.");

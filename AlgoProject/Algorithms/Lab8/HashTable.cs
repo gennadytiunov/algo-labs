@@ -2,13 +2,13 @@
 
 namespace Otus.AlgoLabs.Algorithms.Lab8
 {
-	public class HashTable<K, V> where V : class, new()
+	public class HashTable<K, V> where V : class
 	{
 		private const double FillFactor = 0.75;
 		private const int GrowthFactor = 2;
 		private const int InitialArrayLength = 4;
 
-		private int _nodeCount = 0;
+		private int _nodeCount;
 
 		private Node<K,V>[] _values = new Node<K, V>[InitialArrayLength];
 
@@ -27,7 +27,7 @@ namespace Otus.AlgoLabs.Algorithms.Lab8
 				var existingNode = Find(key);
 				if (existingNode != null)
 				{
-					Console.WriteLine($"Put: Element with key '{key}' already exists, value '{existingNode.Value}' has been replaced by '{value}'.");
+					//Console.WriteLine($"Put: Element with key '{key}' already exists, value '{existingNode.Value}' has been replaced by '{value}'.");
 					existingNode.Value = value;
 				}
 				else
@@ -49,6 +49,42 @@ namespace Otus.AlgoLabs.Algorithms.Lab8
 			return node?.Value;
 		}
 
+		public V Delete(K key)
+		{
+			var index = Hash(key, _values.Length);
+
+			var node = _values[index];
+			if (node == null)
+			{
+				return null;
+			}
+
+			do
+			{
+				if (node.Key.Equals(key))
+				{
+					var removedValue = node.Value;
+
+					if (node.Next != null)
+					{
+						node.Value = node.Next.Value;
+						node.Next = node.Next.Next;
+					}
+					else
+					{
+						node = null;
+					}
+
+					return removedValue;
+				}
+
+				node = node.Next;
+			}
+			while (node != null);
+
+			return null;
+		}
+		
 		private Node<K,V> Find(K key)
 		{
 			var index = Hash(key, _values.Length);
@@ -113,16 +149,17 @@ namespace Otus.AlgoLabs.Algorithms.Lab8
 
 		private int Hash(K key, int arrayLength)
 		{
-			var hash = key.GetHashCode() % arrayLength;
-			AssertHashInRange(hash);
+			var hashCode = key.GetHashCode();
+			var hash = Math.Abs(hashCode) % arrayLength;
+			AssertHashInRange(hash, arrayLength);
 			return hash;
 		}
 
-		private void AssertHashInRange(int hash)
+		private void AssertHashInRange(int hash, int arrayLength)
 		{
-			if (hash > _values.Length - 1)
+			if (hash > arrayLength - 1)
 			{
-				throw new ArgumentOutOfRangeException($"AssertHashInRange: ash value '{nameof(hash)}' is out of range.");
+				throw new ArgumentOutOfRangeException($"AssertHashInRange: hash value '{nameof(hash)}' is out of range '0 - {arrayLength}'.");
 			}
 		}
 

@@ -12,7 +12,8 @@ namespace Otus.AlgoLabs.Configuration
         ShellSortingClassic,
         ShellSortingKnuth,
         ShellSortingCiura,
-        HeapSorting
+        HeapSorting,
+        HashTableChains
     }
 
 	public class InputParameters
@@ -28,13 +29,14 @@ namespace Otus.AlgoLabs.Configuration
                        "\r\n - ShellSortingClassic - using gap sequence by Donald Shell: N/2, N/4, N/8, ...,  1" +
                        "\r\n - ShellSortingKnuth - using gap sequence by Donald Knuth: (3^k-1)/2 < N/3 (1, 4, 13, 40, 121, ...)" +
                        "\r\n - ShellSortingCiura - using gap sequence by Marcin Ciura (1, 4, 10, 23, 57, 132, 301, 701)" +
-                       "\r\n - HeapSorting"
+                       "\r\n - HeapSorting" +
+                       "\r\n - HashTableChains"
                        )]
 		public Algorithm Algorithm { get; set; }
 
 		[Option(
 			"tests-folder",
-			Required = true,
+			Required = false,
 			HelpText = "Name of folder name with test files")]
 		public string TestsFolder { get; set; }
 	}

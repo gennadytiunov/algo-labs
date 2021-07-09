@@ -1,0 +1,49 @@
+e:\Sources\Education\OtusAlgoLabs\AlgoProject\bin\Debug\netcoreapp3.1>Otus.AlgoLabs.exe --algo HashTableChains
+Starting to add 10 random elements.
+Adding 10 random elements completed in 1ms.
+Starting to search 10 random elements.
+Searching 10 random elements completed in 0ms.
+Starting to delete 10 random elements.
+Deleting 10 random elements completed in 0ms.
+
+Starting to add 100 random elements.
+Adding 100 random elements completed in 0ms.
+Starting to search 100 random elements.
+Searching 100 random elements completed in 0ms.
+Starting to delete 100 random elements.
+Deleting 100 random elements completed in 0ms.
+
+Starting to add 1000 random elements.
+Adding 1000 random elements completed in 0ms.
+Starting to search 1000 random elements.
+Searching 1000 random elements completed in 0ms.
+Starting to delete 1000 random elements.
+Deleting 1000 random elements completed in 0ms.
+
+Starting to add 10000 random elements.
+Adding 10000 random elements completed in 2ms.
+Starting to search 10000 random elements.
+Searching 10000 random elements completed in 1ms.
+Starting to delete 10000 random elements.
+Deleting 10000 random elements completed in 0ms.
+
+Starting to add 100000 random elements.
+Adding 100000 random elements completed in 30ms.
+Starting to search 100000 random elements.
+Searching 100000 random elements completed in 15ms.
+Starting to delete 100000 random elements.
+Deleting 100000 random elements completed in 2ms.
+
+Starting to add 1000000 random elements.
+Adding 1000000 random elements completed in 714ms.
+Starting to search 1000000 random elements.
+Searching 1000000 random elements completed in 406ms.
+Starting to delete 1000000 random elements.
+Deleting 1000000 random elements completed in 28ms.
+
+Starting to add 10000000 random elements.
+Adding 10000000 random elements completed in 18384ms.
+Starting to search 10000000 random elements.
+Searching 10000000 random elements completed in 3568ms.
+Starting to delete 10000000 random elements.
+Deleting 10000000 random elements completed in 308ms.
